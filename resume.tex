@@ -8,6 +8,9 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 
+\usepackage[nodayofweek]{datetime}
+\newdateformat{mydatestyle}{\shortmonthname[\THEMONTH]{. }\twodigit{\THEDAY}, \THEYEAR}
+
 \hypersetup{%
   colorlinks=false,
   urlbordercolor=red
@@ -25,7 +28,7 @@
 \thispagestyle{empty}
 \setlength\cvlabelwidth{90pt}
 
-\begin{cv}{\huge Curriculum Vitae of Massimiliano Furlan \normalsize{[\today]}} % \large
+\begin{cv}{\huge Curriculum Vitae of Massimiliano Furlan \normalsize{[\mydatestyle\today]}} % \large
 
 \section{Contacts}
 
@@ -49,14 +52,14 @@
 
 \begin{cvlist}{}
 	\item[starting 09/2022] 
-		\textbf{MRes., Economics}\\ 
+		\textbf{MRes, Economics}\\ 
 		University of Warwick, Coventry, United Kingdom
 		%\textbf{Thesis:} \href{https://www.teses.usp.br/teses/}{Extremely long title of my thesis}\\
 		%\textbf{Advisor:} {xxxxxx xxxxxx}\\
 		%\textbf{Co-Advisor:} {xxxxxx xxxxxx xxxxxx}
 	\item[09/2020 -- 07/2022] 
 		\textbf{Master's Degree, Economics}\\ 
-		 Mater Studiorum -- University of Bologna, Bologna, Italy\\
+		Alma Mater Studiorum -- University of Bologna, Bologna, Italy\\
 		Thesis: Algorithmic pricing with coarse memory\\
 		Advisor: Vincenzo Denicolò\\
 		Final grade: 110 cum laude \quad (GPA: 29.5/30)
@@ -94,8 +97,8 @@
 \section{Grants and Scholarships}
 \begin{cvlist}{}
 	\itemsep -4pt
-	\item[2022] Departmental Scholarship, Department of Economics, University of Warwick 
-	\item[2020] Study Grant, Department of Economics, University of Bologna
+	\item[2022] Departmental scholarship, Department of Economics, University of Warwick 
+	\item[2020] Merit-based grant, Department of Economics, University of Bologna
 \end{cvlist}
 
 
