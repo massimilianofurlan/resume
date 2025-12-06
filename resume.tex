@@ -1,6 +1,6 @@
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=1.75cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
@@ -14,11 +14,11 @@
 }
 
 \titleformat{\section}{\scshape\large}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{15pt}{10pt}
+\titlespacing*{\section}{0pt}{12pt}{7pt}
 
 \newlist{cvenumerate}{enumerate}{1}
 \setlist[cvenumerate,1]{
-    labelwidth=78pt,
+    labelwidth=70pt,
     itemsep=-1pt,
     align=left,
     leftmargin=!,
@@ -30,14 +30,13 @@
 \date{}
 \thispagestyle{empty}
 
-% CV Title
 \begin{flushleft}
-    {\LARGE \textbf{Curriculum Vitae of Massimiliano Furlan}}
+    {\huge \textbf{Curriculum Vitae of Massimiliano Furlan}}
 \end{flushleft}
 
 \section{Personal Information}
 
-\begin{cvenumerate}
+\begin{cvenumerate}[itemsep=-2pt]
     \item[Birth date:] 23 November 1995
     \item[Languages:] Italian (native), English (fluent)
     \item[Email:] massimiliano.furlan at warwick.ac.uk
@@ -47,16 +46,16 @@
 \section{Education}
 
 \begin{cvenumerate}
-    \item[2024 \ -- \ present] \textbf{PhD, Economics}\\
+    \item[2024  --  present] \textbf{PhD, Economics}\\
         University of Warwick, Coventry, United Kingdom\\
         Advisors: Daniele Condorelli and Costas Cavounidis
-    \item[2022 \ -- \ 2024] \textbf{MRes, Economics} (\textit{with Distinction})\\
+    \item[2022  --  2024] \textbf{MRes, Economics} (\textit{with Distinction})\\
         University of Warwick, Coventry, United Kingdom\\
         Advisor: Daniele Condorelli
-    \item[2020 \ -- \ 2022] \textbf{Laurea Magistrale, Economics} (\textit{Summa cum laude})\\
-        Alma Mater Studiorum \ -- \ University of Bologna, Bologna, Italy\\
+    \item[2020  --  2022] \textbf{Laurea Magistrale, Economics} (\textit{Summa cum laude})\\
+        Alma Mater Studiorum  --  University of Bologna, Bologna, Italy\\
         Advisor: Vincenzo Denicolò
-    \item[2017 \ -- \ 2020] \textbf{Laurea Triennale, Economia e Commercio} (\textit{Summa cum laude})\\
+    \item[2017  --  2020] \textbf{Laurea Triennale, Economia e Commercio} (\textit{Summa cum laude})\\
         Ca' Foscari University of Venice, Venice, Italy\\
         Advisor: Marco LiCalzi
 \end{cvenumerate}
@@ -64,28 +63,41 @@
 %\section{Working Papers}
 
 %\begin{cvenumerate}[labelwidth=5pt]
+%    \item Perfect Secrecy in the Wild (with Costas Cavounidis and Alkis Georgiadis-Harris)
 %    \item Deep Learning to Play Games (with Daniele Condorelli)
 %    \item Cheap Talking Algorithms (with Daniele Condorelli)
 %\end{cvenumerate}
 
+\section{Conferences and Workshops}
+
+\begin{cvenumerate}
+	\item[Summer 2025] Invited speaker at the ICMS Workshop on AI and Economics, Edinburgh
+	\item[Spring 2026] HEC PhD Conference, Paris
+\end{cvenumerate}
+
 \section{Grants and Scholarships}
 
 \begin{cvenumerate}
-    \item[2024 \ -- \ 2028] Chancellor's International Scholarship, University of Warwick
-    \item[2022 \ -- \ 2024] Departmental Scholarship, Department of Economics, University of Warwick
+    \item[2024  --  2028] Chancellor's International Scholarship, University of Warwick
+    \item[2022  --  2024] Departmental Scholarship, Department of Economics, University of Warwick
     \item[2020] Merit-based grant, Department of Economics, University of Bologna
 \end{cvenumerate}
 
 \section{Teaching}
 
 \begin{cvenumerate}
-    \item[Spring 2024] EC124 Statistical Techniques (UG), Teaching Assistant, University of Warwick (4.5/5)
-    \item[Fall 2024] EC9A1 Game Theory (MRes), Teaching Assistant, University of Warwick (4.9/5)
-    \item[Spring 2024] EC109 Microeconomics (UG), Teaching Assistant, University of Warwick (4.4/5)
-    \item[Fall 2023*] EC202 Microeconomics (UG), Teaching Assistant, University of Warwick (4.7/5)
+    \item[Spring 2026] EC202 Microeconomics 2 (UG), Teaching Assistant, University of Warwick %(-/5)
+    \item[Fall 2025] EC9A1 Game Theory (MRes),, Teaching Assistant, University of Warwick %(-/5)
+    \item[Fall 2025] EC220 Mathematical Economics 1A (UG), Teaching Assistant, University of Warwick %(-/5)
+    \item[Spring 2025] EC124 Statistical Techniques (UG), Teaching Assistant, University of Warwick %(4.5/5)
+    \item[Fall 2024] EC9A1 Game Theory (MRes), Teaching Assistant, University of Warwick %(4.9/5)
+    \item[Spring 2024] EC109 Microeconomics (UG), Teaching Assistant, University of Warwick %(4.4/5)
+    \item[Fall 2023*] EC202 Microeconomics (UG), Teaching Assistant, University of Warwick %(4.7/5)
 \end{cvenumerate}
-\vspace{-10pt}
+\vspace{-9pt}
+%{\small Average evaluation on ``Classes have been useful'' and ``The tutor was well prepared''} in brackets\\
 {\small*Teaching Excellence Award, Department of Economics, University of Warwick.}
+
 
 \section{Outreach}
 
